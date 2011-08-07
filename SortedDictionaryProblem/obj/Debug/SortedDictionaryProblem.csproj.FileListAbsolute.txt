@@ -1,0 +1,5 @@
+C:\Users\Javier\AppData\Local\Temporary Projects\SortedDictionaryProblem\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Javier\AppData\Local\Temporary Projects\SortedDictionaryProblem\bin\Debug\SortedDictionaryProblem.exe
+C:\Users\Javier\AppData\Local\Temporary Projects\SortedDictionaryProblem\bin\Debug\SortedDictionaryProblem.pdb
+C:\Users\Javier\AppData\Local\Temporary Projects\SortedDictionaryProblem\obj\Debug\SortedDictionaryProblem.exe
+C:\Users\Javier\AppData\Local\Temporary Projects\SortedDictionaryProblem\obj\Debug\SortedDictionaryProblem.pdb
