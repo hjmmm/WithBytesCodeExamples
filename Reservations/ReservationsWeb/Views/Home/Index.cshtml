@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<h2>Welcome</h2>
+
+<p>
+    This example presents a simplified reservation system for a restaurant implemented using ASP.net MVC 3.0 with 
+    Razor as the view engine. The currently implemented features are:
+</p>
+
+<ul>
+    <li>Homepage with introduction, placeholder menu and list of configuration settings</li>
+</ul>
+
+<h3>Configuration</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Value</th>
+            <th class="description">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>MaxCapacity</td>
+            <td>@ViewBag.config.MaxCapacity</td>
+            <td>Number of seats available at the restaurant.</td>
+        </tr>
+        <tr>
+            <td>BookingTop</td>
+            <td>@ViewBag.config.BookingTop</td>
+            <td>
+                Percentage of the seats that are available for booking. A value of 1 means that all seats are
+                available for booking, 0.8 would mean that only 80% of the seats are available, a value over 1
+                means we are accepting overbooking. So, a value of 1.2 means we are accepting bookings for 
+                20% more seats than we actually have.
+            </td>
+        </tr>
+    </tbody>
+</table>
