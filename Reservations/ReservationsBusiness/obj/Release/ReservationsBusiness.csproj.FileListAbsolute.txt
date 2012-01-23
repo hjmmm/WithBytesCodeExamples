@@ -1,0 +1,7 @@
+C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsBusiness\bin\Release\ReservationsBusiness.dll
+C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsBusiness\bin\Release\ReservationsBusiness.pdb
+C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsBusiness\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsBusiness\obj\Release\ReservationsBusiness.dll
+C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsBusiness\obj\Release\ReservationsBusiness.pdb
+C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsBusiness\bin\Release\ReservationsCommons.dll
+C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsBusiness\bin\Release\ReservationsCommons.pdb

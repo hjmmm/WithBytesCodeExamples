@@ -25,7 +25,7 @@ namespace SortedDictionaryProblem {
             if (a != right.a) {
                 return a.CompareTo(right.a);
             }
-            return 1;            
+            return 1;
         }
 
         #endregion

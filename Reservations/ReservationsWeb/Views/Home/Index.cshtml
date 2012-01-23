@@ -6,12 +6,34 @@
 
 <p>
     This example presents a simplified reservation system for a restaurant implemented using ASP.net MVC 3.0 with 
-    Razor as the view engine. The currently implemented features are:
+    Razor as the view engine. The project uses the following libraries:
 </p>
+<ul>
+    <li><a href="http://www.asp.net/downloads" title="ASP.net MVC 3">ASP.net MVC 3</a></li>
+    <li><a href="http://code.google.com/p/moq/downloads/detail?name=Moq.4.0.10827.Final.zip&can=2&q=" title="Moq - Mocking Framework">Moq (mocking framework)</a></li>
+    <li><a href="http://launchpad.net/nunitv2/2.6/2.6.0b4/+download/NUnit-2.6.0.12017.msi" title="NUnit - Unit Testing Framework">NUnit</a></li>
+</ul>
+
+<h3>Currenly implemented</h3>
 
 <ul>
-    <li>Homepage with introduction, placeholder menu and list of configuration settings</li>
+    <li>Homepage with introduction, menu and list of configuration settings</li>
+    <li>Business logic to add and query reservations made by ID and date</li>
+    <li>Unit tests for the business logic code</li>
+    <li>View to list all reservations</li>
+    <li>View to add new reservations</li>
+    <li>Saves the reservations to a in-memory object in the Application object</li>
 </ul>
+
+<h3>To be implemented</h3>
+
+<ul>
+    <li>View to check reservations by date (the idea is to implement it using ajax calls that retrive answers from the server in json format)</li>
+    <li>Present the reservations on the list page ordered</li>
+    <li>Validate the date in the create action</li>
+    <li>Reservations deletion (cancelation)</li>
+</ul>
+
 
 <h3>Configuration</h3>
 

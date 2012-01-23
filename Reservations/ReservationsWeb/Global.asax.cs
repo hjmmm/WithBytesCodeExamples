@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using ReservationsCommons;
+using ReservationsCommons.Implementation;
+using ReservationsBusiness;
 
 namespace ReservationsWeb {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
@@ -28,8 +31,17 @@ namespace ReservationsWeb {
         protected void Application_Start() {
             AreaRegistration.RegisterAllAreas();
 
+            // Instantiate the ConfigReader and ReservationManager
+            IConfigReader config = new ConfigReader();
+            ReservationManager manager = new ReservationManager(config);
+            // Adds a ReservationManager to the application
+            Application.Add(Constants.RESERVATION_MANAGER_APPLICATION_KEY, manager);
+
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
         }
+
+
+
     }
 }

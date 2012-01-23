@@ -1,5 +1,4 @@
 C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsWeb\bin\ReservationsWeb.dll
-C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsWeb\bin\ReservationsWeb.pdb
 C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsWeb\bin\EntityFramework.dll
 C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsWeb\bin\ReservationsCommons.dll
 C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsWeb\bin\ReservationsCommons.pdb
@@ -7,3 +6,6 @@ C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\Reserv
 C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsWeb\obj\Release\ResolveAssemblyReference.cache
 C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsWeb\obj\Release\ReservationsWeb.dll
 C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsWeb\obj\Release\ReservationsWeb.pdb
+C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsWeb\bin\ReservationsWeb.pdb
+C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsWeb\bin\ReservationsBusiness.dll
+C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\Reservations\ReservationsWeb\bin\ReservationsBusiness.pdb

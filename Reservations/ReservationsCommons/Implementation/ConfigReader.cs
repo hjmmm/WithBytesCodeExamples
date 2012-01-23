@@ -9,7 +9,7 @@ namespace ReservationsCommons.Implementation {
 
         #region IConfigReader Members
 
-        public int IConfigReader.MaxCapacity {
+        public int MaxCapacity {
             get {
                 int value;
                 if (!int.TryParse(ConfigurationManager.AppSettings["MaxCapacity"], out value)) {
@@ -19,10 +19,10 @@ namespace ReservationsCommons.Implementation {
             }
         }
 
-        public float IConfigReader.BookingTop {
+        public decimal BookingTop {
             get {
-                float value;
-                if (!float.TryParse(ConfigurationManager.AppSettings["BookingTop"], out value)) {
+                decimal value;
+                if (!decimal.TryParse(ConfigurationManager.AppSettings["BookingTop"], out value)) {
                     value = 1; //Default value
                 }
                 return value;
@@ -30,5 +30,6 @@ namespace ReservationsCommons.Implementation {
         }
 
         #endregion
+
     }
 }

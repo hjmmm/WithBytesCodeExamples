@@ -13,7 +13,7 @@ namespace ReservationsCommons {
         /// means we are accepting overbooking. So, a value of 1.2 means we are accepting bookings for 
         /// 20% more seats than we actually have.
         /// </summary>
-        float BookingTop { get; }
+        decimal BookingTop { get; }
 
     }
 }

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<ReservationsWeb.Models.ReservationModel>
+
+@{
+    ViewBag.Title = "All Reservations";
+}
+
+<h2>All Reservations</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@if (ViewBag.listCount == 0) {
+    <p>No reservation available, please @Html.ActionLink("add", "Create") some.</p>    
+} else {
+    <table>
+        <tr>
+            <th class="description">
+                Name
+            </th>
+            <th>
+                Date
+            </th>
+            <th>
+                Number of people
+            </th>
+        </tr>
+
+    @foreach (ReservationsWeb.Models.ReservationModel item in ViewBag.list) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.numberOfGuests)
+            </td>
+        </tr>
+    }
+
+    </table>
+}

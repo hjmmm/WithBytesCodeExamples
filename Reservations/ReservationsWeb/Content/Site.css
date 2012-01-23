@@ -139,3 +139,15 @@ th.description
 	width:75%;
 }
 
+/* Message
+-----------------------------------------------------------*/
+
+p.message 
+{
+	color: #1C5D9E;
+	font-weight: bold;
+	width: 80%;
+	background-color: #FFFF94;
+	padding: 20px;
+	margin:20px auto;
+}

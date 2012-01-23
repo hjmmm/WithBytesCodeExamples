@@ -3,3 +3,8 @@ C:\Users\Javier\AppData\Local\Temporary Projects\SortedDictionaryProblem\bin\Deb
 C:\Users\Javier\AppData\Local\Temporary Projects\SortedDictionaryProblem\bin\Debug\SortedDictionaryProblem.pdb
 C:\Users\Javier\AppData\Local\Temporary Projects\SortedDictionaryProblem\obj\Debug\SortedDictionaryProblem.exe
 C:\Users\Javier\AppData\Local\Temporary Projects\SortedDictionaryProblem\obj\Debug\SortedDictionaryProblem.pdb
+C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\SortedDictionaryProblem\obj\Debug\SortedDictionaryProblem.exe
+C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\SortedDictionaryProblem\obj\Debug\SortedDictionaryProblem.pdb
+C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\SortedDictionaryProblem\bin\Debug\SortedDictionaryProblem.exe
+C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\SortedDictionaryProblem\bin\Debug\SortedDictionaryProblem.pdb
+C:\Users\Javier\Documents\My Dropbox\Proyectos\WithBytesCode\SortedDictionaryProblem\obj\Debug\ResolveAssemblyReference.cache

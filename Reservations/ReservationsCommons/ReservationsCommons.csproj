@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants.cs" />
     <Compile Include="Implementation\ConfigReader.cs" />
     <Compile Include="IConfigReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

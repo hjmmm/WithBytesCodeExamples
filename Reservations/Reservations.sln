@@ -2,8 +2,21 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationsWeb", "ReservationsWeb\ReservationsWeb.csproj", "{E84BEE6F-0848-4936-B80A-8AE0403317F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0534414C-4385-4A4A-B279-79AD39006268} = {0534414C-4385-4A4A-B279-79AD39006268}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationsCommons", "ReservationsCommons\ReservationsCommons.csproj", "{7338F1AE-7B5C-4E91-A2D6-490F5C604F58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationsBusiness", "ReservationsBusiness\ReservationsBusiness.csproj", "{0534414C-4385-4A4A-B279-79AD39006268}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7338F1AE-7B5C-4E91-A2D6-490F5C604F58} = {7338F1AE-7B5C-4E91-A2D6-490F5C604F58}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservationsBusinessTests", "ReservationsBusinessTests\ReservationsBusinessTests.csproj", "{AD1A1D4E-F43C-45FC-8ECC-DB3FD4A7AEA4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0534414C-4385-4A4A-B279-79AD39006268} = {0534414C-4385-4A4A-B279-79AD39006268}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +32,14 @@ Global
 		{7338F1AE-7B5C-4E91-A2D6-490F5C604F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7338F1AE-7B5C-4E91-A2D6-490F5C604F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7338F1AE-7B5C-4E91-A2D6-490F5C604F58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0534414C-4385-4A4A-B279-79AD39006268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0534414C-4385-4A4A-B279-79AD39006268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0534414C-4385-4A4A-B279-79AD39006268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0534414C-4385-4A4A-B279-79AD39006268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1A1D4E-F43C-45FC-8ECC-DB3FD4A7AEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1A1D4E-F43C-45FC-8ECC-DB3FD4A7AEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1A1D4E-F43C-45FC-8ECC-DB3FD4A7AEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1A1D4E-F43C-45FC-8ECC-DB3FD4A7AEA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
