@@ -21,13 +21,8 @@ namespace ReservationsWeb.Controllers
             return View();
         }
 
-        private ReservationModel ReservationToModel(IReservation r) {
-            return new ReservationModel { date = r.date, name = r.name, numberOfGuests = r.numberOfGuests, id = r.id };
-        }
-
-        private Reservation ModelToReservation(ReservationModel m) {
-            return new Reservation(m.name, m.numberOfGuests, m.date);
-        }
+        //
+        // GET: /Reservation/Create
 
         public ActionResult Create() {
             return View(new ReservationModel { date=DateTime.Now.Date, numberOfGuests=4 });
@@ -58,6 +53,31 @@ namespace ReservationsWeb.Controllers
             {
                 return View(model);
             }
+        }
+
+        // GET: /Reservation/ByDate/{year}/{month}/{day}
+
+        public ActionResult ByDate(int year, int month, int day) {
+            DateTime requested;
+            object response;
+            IEnumerable<IReservation> reservations;
+            try {
+                requested = new DateTime(year, month, day);
+                reservations = this.reservationManager.GetReservationsByDate(requested);
+                response = new { success = true, list = reservations.Select<IReservation, ReservationModel>(r => ReservationToModel(r)) };
+            } catch{
+                response = new { success = false, error = "Invalid date" };
+            }
+            
+            return Json(response, JsonRequestBehavior.AllowGet);
+        }
+
+        private ReservationModel ReservationToModel(IReservation r) {
+            return new ReservationModel { date = r.date, name = r.name, numberOfGuests = r.numberOfGuests, id = r.id };
+        }
+
+        private Reservation ModelToReservation(ReservationModel m) {
+            return new Reservation(m.name, m.numberOfGuests, m.date);
         }
         
     }

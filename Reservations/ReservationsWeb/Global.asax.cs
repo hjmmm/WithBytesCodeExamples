@@ -26,6 +26,14 @@ namespace ReservationsWeb {
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
             );
 
+            // Route to get reservations by date
+            // TODO: this somehow doesn't feel like the best place for this, check best practices
+            routes.MapRoute(
+                "ReservationsByDate",
+                "Reservation/ByDate/{year}/{month}/{day}",
+                new { controller = "Reservation", action = "ByDate" }
+            );
+
         }
 
         protected void Application_Start() {
