@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Daily";
+}
+
+<h2>Reservations by day</h2>
+
+<p>Select a date to view the reservations for it</p>
+
+@Html.TextBox("daily_list_date", "", new { @class = "datepicker", @id = "daily_list_date" })
+
+<div id="daily_list_holder" data-url="@Url.Action("ByDate")"></div>

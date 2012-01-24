@@ -15,10 +15,10 @@ Razor as the view engine. The project uses the following libraries:
 - View to list all reservations
 - View to add new reservations
 - Saves the reservations to a in-memory object in the Application object
+- View to check reservations by date, implemented using ajax calls that retrieve answers from the server in json format
 
 ## To be implemented ##
 
-- View to check reservations by date (the idea is to implement it using ajax calls that retrive answers from the server in json format)
 - Present the reservations on the list page ordered
 - Validate the date in the create action
 - Reservations deletion (cancelation)

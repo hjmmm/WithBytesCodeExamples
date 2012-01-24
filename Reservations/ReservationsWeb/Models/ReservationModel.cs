@@ -19,7 +19,7 @@ namespace ReservationsWeb.Models {
         public DateTime date { get; set; }
 
         [Required]
-        [Display(Name = "Number of people")]
+        [Display(Name = "Number of guests")]
         [Range(0, int.MaxValue, ErrorMessage="The reservation needs to include at least one client")]
         public int numberOfGuests { get; set; }
 

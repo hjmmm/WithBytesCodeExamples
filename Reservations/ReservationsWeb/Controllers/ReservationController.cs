@@ -55,6 +55,12 @@ namespace ReservationsWeb.Controllers
             }
         }
 
+        // GET: /Reservation/Daily
+
+        public ActionResult Daily() {
+            return View();
+        }
+
         // GET: /Reservation/ByDate/{year}/{month}/{day}
 
         public ActionResult ByDate(int year, int month, int day) {
